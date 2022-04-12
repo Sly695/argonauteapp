@@ -1,0 +1,62 @@
+button {
+    outline: none;
+    border-radius: 50px;
+    width: 20%;
+    height: 40px;
+    background-color: #F76C6C;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+button:hover {
+    color: black;
+}
+
+input {
+    width: 20%;
+    height: 35px;
+    border-radius: 50px;
+    text-align: center;
+    border: 2px solid #F76C6C;
+    font-weight: bold;
+    outline-color: black;
+}
+
+main {
+
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.new-member-form {
+    margin: 2em 0 4em 0;
+    text-align: center;
+}
+
+.member-item {
+    padding: 0.25em 0;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.member-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 500px;
+}
