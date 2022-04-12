@@ -6,7 +6,7 @@ var options = {
   useNewUrlParser: true,
 };
 
-mongoose.connect("mongodb+srv://slyUser:123456!@cluster0.heabt.mongodb.net/argonauteApp?retryWrites=true&w=majority", options, function (err) {
+mongoose.connect(process.env.BDD_LINK, options, function (err) {
   err ? console.log(err) : console.log("BDD OK");
 });
 
